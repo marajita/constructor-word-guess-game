@@ -4,7 +4,7 @@ var inquirer = require("inquirer");
 // List of words to choose from
 var wordBank = ["lua", "perl", "scala", "clojure", "ruby", "haskell"];
 var newWord = "";
-var guesses = 8;
+var guesses = 10;
 
 var questions = [
   {
@@ -69,7 +69,6 @@ function checkWord() {
   });
   return retval;
 }
-//function endGame() {}
 
 main();
 playGame();

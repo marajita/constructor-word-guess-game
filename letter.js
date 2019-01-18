@@ -16,19 +16,3 @@ var Letter = function(character) {
 };
 
 module.exports = Letter;
-
-/*console.log("Program starting");
-
-var myLetter = new Letter("A");
-log();
-myLetter.checkCharacter("C");
-log();
-myLetter.checkCharacter("A");
-log();
-
-function log() {
-  console.log(myLetter.character);
-  console.log(myLetter.letterGuessed);
-  console.log(myLetter.isGuessed());
-  console.log("---------");
-}*/
